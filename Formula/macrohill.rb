@@ -10,22 +10,22 @@ class Macrohill < Formula
   on_macos do
     on_arm do
       url "https://github.com/pUrGe12/homebrew-tap/releases/download/v0.1.0/macrohill-macos-arm64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "58a6dbd50b76aeef6bd50eb7351a09d853da3b3edcf1b375d74a13294194a768"
     end
     on_intel do
       url "https://github.com/pUrGe12/homebrew-tap/releases/download/v0.1.0/macrohill-macos-x64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "d866229dcb78e4c24ce1403f43a5ed8fdb95b0c422ff2c7717255227ccbd1c39"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/pUrGe12/homebrew-tap/releases/download/v0.1.0/macrohill-linux-arm64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "cf950e01e89f0f6dfbc2e007456d057b66c154f47ec8e1da61160844d6589c3c"
     end
     on_intel do
       url "https://github.com/pUrGe12/homebrew-tap/releases/download/v0.1.0/macrohill-linux-x64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "688f65375b0a53ddcc3d92059d944f0a47dc5b5dcfdfd3b1d96b59f3d04dc03b"
     end
   end
 
