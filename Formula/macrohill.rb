@@ -5,27 +5,27 @@
 class Macrohill < Formula
   desc "Run hardware-emulation test configs from the terminal"
   homepage "https://macrohill.com"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/pUrGe12/homebrew-tap/releases/download/v0.1.0/macrohill-macos-arm64"
-      sha256 "58a6dbd50b76aeef6bd50eb7351a09d853da3b3edcf1b375d74a13294194a768"
+      url "https://github.com/pUrGe12/homebrew-tap/releases/download/v0.2.0/macrohill-macos-arm64"
+      sha256 "db2f857cd951d8e8671e4f93cce439656b37188ccfbc22278c1d5babf07165a3"
     end
     on_intel do
-      url "https://github.com/pUrGe12/homebrew-tap/releases/download/v0.1.0/macrohill-macos-x64"
-      sha256 "d866229dcb78e4c24ce1403f43a5ed8fdb95b0c422ff2c7717255227ccbd1c39"
+      url "https://github.com/pUrGe12/homebrew-tap/releases/download/v0.2.0/macrohill-macos-x64"
+      sha256 "7dcc2d463c956810de2e6ca07e339b94a87114cf191255b6bbf4dea65db2f455"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pUrGe12/homebrew-tap/releases/download/v0.1.0/macrohill-linux-arm64"
-      sha256 "cf950e01e89f0f6dfbc2e007456d057b66c154f47ec8e1da61160844d6589c3c"
+      url "https://github.com/pUrGe12/homebrew-tap/releases/download/v0.2.0/macrohill-linux-arm64"
+      sha256 "4696b8652b30539f88333fb571fa9b67318336c72c38db2e9c4df8f28ef236e5"
     end
     on_intel do
-      url "https://github.com/pUrGe12/homebrew-tap/releases/download/v0.1.0/macrohill-linux-x64"
-      sha256 "688f65375b0a53ddcc3d92059d944f0a47dc5b5dcfdfd3b1d96b59f3d04dc03b"
+      url "https://github.com/pUrGe12/homebrew-tap/releases/download/v0.2.0/macrohill-linux-x64"
+      sha256 "865af2867187fc7b7d1ae483966fa138da85b1cde170081648d9bc23fe60d817"
     end
   end
 
